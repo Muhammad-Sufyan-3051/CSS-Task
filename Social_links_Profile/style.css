@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+#outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 32px;
+}
+
+#inner{
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.224);
+    display: flex;
+    justify-content: center;
+}
+
+#instagram{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.25);
+    position: relative;
+    top: 520px;
+    flex-shrink: 0;
+    left: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#a1{
+    text-decoration: none;
+    color: white;
+}
+
+#Twitter{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.25);
+    position: relative;
+    top: 460px;
+    flex-shrink: 0;
+    left: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#a2{
+    text-decoration: none;
+    color: white;
+}
+
+#Linkdin{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.25);
+    position: relative;
+    top: 400px;
+    flex-shrink: 0;
+    left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#a3{
+    text-decoration: none;
+    color: white;
+}
+
+
+#FrontendMentor{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.25);
+    position: relative;
+    top: 340px;
+    flex-shrink: 0;
+    left: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#a4{
+    text-decoration: none;
+    color: white;
+}
+
+
+#Github{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.25);
+    position: relative;
+    top: 280px;
+    flex-shrink: 0;
+    left: -370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#a5{
+    text-decoration: none;
+    color: white;
+}
+
+
+#bio{
+    position: relative;
+    top: 240px;
+    color: white;
+    flex-shrink: 0;
+    left: -645px;
+}
+
+#name{
+    position: relative;
+    top: 135px;
+    color: white;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    left: -870px;
+}
+
+
+#circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;    background-image: url("/Social_links_Profile/image.jpg");
+    background-size: cover;
+    position: relative;
+    right: 240px;
+    top: -220px;
+    flex-shrink: 0;
+}
+
